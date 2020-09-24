@@ -4,20 +4,20 @@ It is a program written to practice with PyQt. Receives latest exchange rates fr
 ![Screen Shot](Screenshot.png)
 
 # Installation
-## For Linux
 No installation required to use. Executable is in bin directory.
 
+## For Windows
+Click **bin/windows/CurrencyCalculator** and use.
+
+## For Linux
 Grant execute permission for **bin/linux/CurrencyCalculator** then you can click and use.
 
 If you want to add the program to the application menu, run `sudo setup.sh` in terminal. Press `super` key, type "CurrencyCalculator" on search bar.
 
 ## Run on source
-You must have **python3** and **pyqt5** installed on your system.
+You must have [**python3**](https://www.python.org/downloads/), [**pyqt5**](https://pypi.org/project/PyQt5/) and [**requests module**](https://pypi.org/project/requests/) installed on your system.
 
-Run `python3 CurrencyCalculator.py` on terminal.
-
-## For Windows
-Currently no windows executable, but will be added soon. You can run on source for now.
+Run `python CurrencyCalculator.py` on terminal.
 
 # Contact
 Salih Bektaş
